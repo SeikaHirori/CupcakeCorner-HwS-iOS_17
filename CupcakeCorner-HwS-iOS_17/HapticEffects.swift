@@ -7,6 +7,9 @@
 // Section: "Adding haptic effects"
 // https://www.hackingwithswift.com/books/ios-swiftui/adding-haptic-effects
 
+// STOPPING DEMO at this part: https://arc.net/l/quote/pufrqpms
+// Reason for stopping: Not testing on real device, so skipping for now
+
 import SwiftUI
 
 struct HapticEffects: View {
@@ -16,7 +19,7 @@ struct HapticEffects: View {
         Button("Tap Count: \(counter)") {
             counter += 1
         }
-        .sensoryFeedback(.increase, trigger: counter)
+        .sensoryFeedback(.impact(flexibility: .soft, intensity: 0.5), trigger: counter)
     }
 }
 
