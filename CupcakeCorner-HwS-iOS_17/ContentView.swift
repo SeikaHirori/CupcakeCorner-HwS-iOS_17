@@ -11,6 +11,10 @@ struct ContentView: View {
     @State private var results: [Result] = [Result]()
     
     var body: some View {
+        AsyncImage(url: URL(string: "https://hws.dev/img/logo.png"), scale: 3)
+        VStack {
+        }
+        
         List(results, id: \.trackId) { item in
             VStack(alignment: .leading) {
                 Text(item.trackName)
@@ -24,7 +28,7 @@ struct ContentView: View {
     }
     
     func loadData() async {
-        print("Trying to load load")
+        print("Trying to load music data")
         
         let iTunesDatabase: String = "https://itunes.apple.com/search?term=taylor+swift&entity=song"
         guard let url = URL(string: iTunesDatabase) else {
