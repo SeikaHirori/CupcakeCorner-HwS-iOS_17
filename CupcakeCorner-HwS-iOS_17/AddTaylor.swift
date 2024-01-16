@@ -4,6 +4,10 @@
 //
 //  Created by Seika Hirori on 1/16/24.
 //
+/* Section "Adding Codable conformance to an @Observable class
+ * https://arc.net/l/quote/xeenbwzg
+ */
+
 
 import SwiftUI
 
