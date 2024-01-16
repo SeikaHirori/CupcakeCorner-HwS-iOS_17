@@ -21,6 +21,7 @@
 		3F5CA3702B5738A3000F420A /* AddTaylor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA36F2B5738A3000F420A /* AddTaylor.swift */; };
 		3F5CA3722B573E05000F420A /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3712B573E05000F420A /* HapticEffects.swift */; };
 		3F5CA3762B5740E5000F420A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3752B5740E5000F420A /* Order.swift */; };
+		3F5CA3782B574869000F420A /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3772B574869000F420A /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		3F5CA36F2B5738A3000F420A /* AddTaylor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaylor.swift; sourceTree = "<group>"; };
 		3F5CA3712B573E05000F420A /* HapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
 		3F5CA3752B5740E5000F420A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3F5CA3772B574869000F420A /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		3F5CA3302B571E00000F420A = {
 			isa = PBXGroup;
 			children = (
+				3F5CA3772B574869000F420A /* AddressView.swift */,
 				3F5CA33B2B571E00000F420A /* CupcakeCorner-HwS-iOS_17 */,
 				3F5CA34C2B571E03000F420A /* CupcakeCorner-HwS-iOS_17Tests */,
 				3F5CA3562B571E03000F420A /* CupcakeCorner-HwS-iOS_17UITests */,
@@ -311,6 +314,7 @@
 				3F5CA36E2B573881000F420A /* UserModel.swift in Sources */,
 				3F5CA33D2B571E00000F420A /* CupcakeCorner_HwS_iOS_17App.swift in Sources */,
 				3F5CA3722B573E05000F420A /* HapticEffects.swift in Sources */,
+				3F5CA3782B574869000F420A /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
