@@ -41,7 +41,7 @@ struct ContentView: View {
     }
     
     func loadData() async {
-        print("Trying to load music data")
+//        print("Trying to load music data")
         
         let iTunesDatabase: String = "https://itunes.apple.com/search?term=taylor+swift&entity=song"
         guard let url = URL(string: iTunesDatabase) else {
@@ -58,7 +58,7 @@ struct ContentView: View {
             print("Invalid data")
         }
         
-        print("Finish loading.")
+//        print("Finish loading.")
     }
 }
 

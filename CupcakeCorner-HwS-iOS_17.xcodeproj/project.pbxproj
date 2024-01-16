@@ -16,6 +16,7 @@
 		3F5CA35A2B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3592B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift */; };
 		3F5CA3682B5721E6000F420A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3672B5721E6000F420A /* Response.swift */; };
 		3F5CA36A2B572249000F420A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3692B572249000F420A /* Result.swift */; };
+		3F5CA36C2B573613000F420A /* CreateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA36B2B573613000F420A /* CreateUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3F5CA3592B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F5CA3672B5721E6000F420A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		3F5CA3692B572249000F420A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		3F5CA36B2B573613000F420A /* CreateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				3F5CA3662B5721CA000F420A /* Model */,
 				3F5CA33C2B571E00000F420A /* CupcakeCorner_HwS_iOS_17App.swift */,
 				3F5CA33E2B571E00000F420A /* ContentView.swift */,
+				3F5CA36B2B573613000F420A /* CreateUser.swift */,
 				3F5CA3402B571E02000F420A /* Assets.xcassets */,
 				3F5CA3422B571E02000F420A /* Preview Content */,
 			);
@@ -274,6 +277,7 @@
 				3F5CA33F2B571E00000F420A /* ContentView.swift in Sources */,
 				3F5CA3682B5721E6000F420A /* Response.swift in Sources */,
 				3F5CA36A2B572249000F420A /* Result.swift in Sources */,
+				3F5CA36C2B573613000F420A /* CreateUser.swift in Sources */,
 				3F5CA33D2B571E00000F420A /* CupcakeCorner_HwS_iOS_17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
