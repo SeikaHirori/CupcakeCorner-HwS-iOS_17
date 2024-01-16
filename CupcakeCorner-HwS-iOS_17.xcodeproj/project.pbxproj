@@ -53,7 +53,7 @@
 		3F5CA3672B5721E6000F420A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		3F5CA3692B572249000F420A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		3F5CA36B2B573613000F420A /* CreateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
-		3F5CA36D2B573881000F420A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = Model/UserModel.swift; sourceTree = "<group>"; };
+		3F5CA36D2B573881000F420A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		3F5CA36F2B5738A3000F420A /* AddTaylor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaylor.swift; sourceTree = "<group>"; };
 		3F5CA3712B573E05000F420A /* HapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,13 +106,10 @@
 		3F5CA33B2B571E00000F420A /* CupcakeCorner-HwS-iOS_17 */ = {
 			isa = PBXGroup;
 			children = (
+				3F5CA3732B574000000F420A /* Views */,
 				3F5CA3662B5721CA000F420A /* Model */,
 				3F5CA33C2B571E00000F420A /* CupcakeCorner_HwS_iOS_17App.swift */,
 				3F5CA33E2B571E00000F420A /* ContentView.swift */,
-				3F5CA36B2B573613000F420A /* CreateUser.swift */,
-				3F5CA36D2B573881000F420A /* UserModel.swift */,
-				3F5CA36F2B5738A3000F420A /* AddTaylor.swift */,
-				3F5CA3712B573E05000F420A /* HapticEffects.swift */,
 				3F5CA3402B571E02000F420A /* Assets.xcassets */,
 				3F5CA3422B571E02000F420A /* Preview Content */,
 			);
@@ -151,6 +148,25 @@
 				3F5CA3692B572249000F420A /* Result.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3F5CA3732B574000000F420A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CA3742B57400A000F420A /* Demos */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F5CA3742B57400A000F420A /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CA36B2B573613000F420A /* CreateUser.swift */,
+				3F5CA36D2B573881000F420A /* UserModel.swift */,
+				3F5CA36F2B5738A3000F420A /* AddTaylor.swift */,
+				3F5CA3712B573E05000F420A /* HapticEffects.swift */,
+			);
+			path = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
