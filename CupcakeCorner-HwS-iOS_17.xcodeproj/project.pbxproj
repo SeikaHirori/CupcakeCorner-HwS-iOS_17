@@ -14,6 +14,8 @@
 		3F5CA34E2B571E03000F420A /* CupcakeCorner_HwS_iOS_17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA34D2B571E03000F420A /* CupcakeCorner_HwS_iOS_17Tests.swift */; };
 		3F5CA3582B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3572B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITests.swift */; };
 		3F5CA35A2B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3592B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift */; };
+		3F5CA3682B5721E6000F420A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3672B5721E6000F420A /* Response.swift */; };
+		3F5CA36A2B572249000F420A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3692B572249000F420A /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3F5CA3532B571E03000F420A /* CupcakeCorner-HwS-iOS_17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CupcakeCorner-HwS-iOS_17UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5CA3572B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner_HwS_iOS_17UITests.swift; sourceTree = "<group>"; };
 		3F5CA3592B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F5CA3672B5721E6000F420A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		3F5CA3692B572249000F420A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		3F5CA33B2B571E00000F420A /* CupcakeCorner-HwS-iOS_17 */ = {
 			isa = PBXGroup;
 			children = (
+				3F5CA3662B5721CA000F420A /* Model */,
 				3F5CA33C2B571E00000F420A /* CupcakeCorner_HwS_iOS_17App.swift */,
 				3F5CA33E2B571E00000F420A /* ContentView.swift */,
 				3F5CA3402B571E02000F420A /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				3F5CA3592B571E03000F420A /* CupcakeCorner_HwS_iOS_17UITestsLaunchTests.swift */,
 			);
 			path = "CupcakeCorner-HwS-iOS_17UITests";
+			sourceTree = "<group>";
+		};
+		3F5CA3662B5721CA000F420A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CA3672B5721E6000F420A /* Response.swift */,
+				3F5CA3692B572249000F420A /* Result.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5CA33F2B571E00000F420A /* ContentView.swift in Sources */,
+				3F5CA3682B5721E6000F420A /* Response.swift in Sources */,
+				3F5CA36A2B572249000F420A /* Result.swift in Sources */,
 				3F5CA33D2B571E00000F420A /* CupcakeCorner_HwS_iOS_17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var results: [Result] = [Result]()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(results, id: \.trackId) { item in
+            VStack(alignment: .leading) {
+                Text(item.trackName)
+                    .font(.headline)
+                Text(item.collectionName)
+            }
         }
-        .padding()
     }
+    
+     
 }
 
 #Preview {
