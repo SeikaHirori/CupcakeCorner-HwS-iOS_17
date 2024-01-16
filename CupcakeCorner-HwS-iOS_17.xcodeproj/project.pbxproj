@@ -20,6 +20,7 @@
 		3F5CA36E2B573881000F420A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA36D2B573881000F420A /* UserModel.swift */; };
 		3F5CA3702B5738A3000F420A /* AddTaylor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA36F2B5738A3000F420A /* AddTaylor.swift */; };
 		3F5CA3722B573E05000F420A /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3712B573E05000F420A /* HapticEffects.swift */; };
+		3F5CA3762B5740E5000F420A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CA3752B5740E5000F420A /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		3F5CA36D2B573881000F420A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		3F5CA36F2B5738A3000F420A /* AddTaylor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaylor.swift; sourceTree = "<group>"; };
 		3F5CA3712B573E05000F420A /* HapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
+		3F5CA3752B5740E5000F420A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				3F5CA3672B5721E6000F420A /* Response.swift */,
 				3F5CA3692B572249000F420A /* Result.swift */,
+				3F5CA3752B5740E5000F420A /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				3F5CA33F2B571E00000F420A /* ContentView.swift in Sources */,
 				3F5CA3682B5721E6000F420A /* Response.swift in Sources */,
 				3F5CA36A2B572249000F420A /* Result.swift in Sources */,
+				3F5CA3762B5740E5000F420A /* Order.swift in Sources */,
 				3F5CA36C2B573613000F420A /* CreateUser.swift in Sources */,
 				3F5CA3702B5738A3000F420A /* AddTaylor.swift in Sources */,
 				3F5CA36E2B573881000F420A /* UserModel.swift in Sources */,
