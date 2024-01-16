@@ -10,8 +10,13 @@
 import SwiftUI
 
 struct HapticEffects: View {
+    @State private var counter = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Tap Count: \(counter)") {
+            counter += 1
+        }
+        .sensoryFeedback(.increase, trigger: counter)
     }
 }
 
