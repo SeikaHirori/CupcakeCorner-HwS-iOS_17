@@ -18,9 +18,31 @@ struct ContentView: View {
                 Text(item.collectionName)
             }
         }
+        .task {
+            await loadData()
+        }
     }
     
-     
+    func loadData() async {
+        print("Trying to load load")
+        
+        let iTunesDatabase: String = "https://itunes.apple.com/search?term=taylor+swift&entity=song"
+        guard let url = URL(string: iTunesDatabase) else {
+            print("Invalid URL")
+            return
+        }
+        
+        do {
+            let (data, _) = try await URLSession.shared.data(from: url)
+            if let decodedResponse = try? JSONDecoder().decode(Response.self, from: data) {
+                results = decodedResponse.results
+            }
+        } catch {
+            print("Invalid data")
+        }
+        
+        print("Finish loading.")
+    }
 }
 
 #Preview {
