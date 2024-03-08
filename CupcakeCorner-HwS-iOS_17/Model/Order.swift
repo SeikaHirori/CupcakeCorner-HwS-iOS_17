@@ -31,4 +31,18 @@ class Order {
     }
     var extraFrosting = false
     var addSprinkles = false
+    
+    var name: String = ""
+    var streetAddress: String = ""
+    var city = ""
+    var zip = ""
+    
+    // https://arc.net/l/quote/vnaodpps
+    var hasValidAddress: Bool {
+        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+            return false
+        }
+        
+        return true
+    }
 }

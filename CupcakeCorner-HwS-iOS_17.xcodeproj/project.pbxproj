@@ -92,8 +92,6 @@
 		3F5CA3302B571E00000F420A = {
 			isa = PBXGroup;
 			children = (
-				3F5CA3792B574A08000F420A /* CheckOutView.swift */,
-				3F5CA3772B574869000F420A /* AddressView.swift */,
 				3F5CA33B2B571E00000F420A /* CupcakeCorner-HwS-iOS_17 */,
 				3F5CA34C2B571E03000F420A /* CupcakeCorner-HwS-iOS_17Tests */,
 				3F5CA3562B571E03000F420A /* CupcakeCorner-HwS-iOS_17UITests */,
@@ -162,6 +160,8 @@
 		3F5CA3732B574000000F420A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3F5CA3792B574A08000F420A /* CheckOutView.swift */,
+				3F5CA3772B574869000F420A /* AddressView.swift */,
 				3F5CA3742B57400A000F420A /* Demos */,
 			);
 			path = Views;
